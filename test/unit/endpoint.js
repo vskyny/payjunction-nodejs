@@ -1,4 +1,4 @@
-var PayjunctionClient = require('lib/payjunction'),
+var PayjunctionClient = require('../lib/payjunction.js'),
     assert = require('assert');
 
 var assert = require("assert")
@@ -48,4 +48,3 @@ describe('endpoint', function(){
     assert.equal(payjunction.customer.baseURL, 'https://api.payjunction.com');
   });
 })
-

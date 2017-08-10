@@ -1,4 +1,4 @@
-var PayjunctionClient = require('lib/payjunction'),
+var PayjunctionClient = require('../lib/payjunction.js'),
     assert = require('assert'),
     server = require('./echo-server');
 
@@ -122,4 +122,3 @@ describe('transactions', function(){
     });
   });
 })
-

@@ -1,4 +1,4 @@
-var PayjunctionClient = require('lib/payjunction'),
+var PayjunctionClient = require('../lib/payjunction.js'),
     assert = require('assert');
 
 var randomAmount = function(){
